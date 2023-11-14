@@ -1,0 +1,5 @@
+#print(int(0b1010))
+#print(int(0x8e))
+#print(bin(0xe))
+#print(oct(0xface))
+print(int(0b1111))
