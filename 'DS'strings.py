@@ -16,5 +16,20 @@ for x in s:
 #else:
     #print('your',location,'is available shortly.....')
 
+#reverse a string#.........
+
+#s='rangerover is a beast'
+#a=s.split()
+#for i in a[::-1]:
+    #print(i,end=' ')
+
+#complete reverse#.......
+
+#s='range rover is a beast'
+#print(s[::-1])
+
+
+
+
 
 
