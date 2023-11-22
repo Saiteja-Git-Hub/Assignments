@@ -74,8 +74,8 @@ for i in range(0,21):
 print(l)
 
 #insert
-#l=[1,2,3,4,5,6,7,8,9)
-#l.insert([1,200])
+#l=[1,2,3,4,5,6,7,8,9]
+#l.insert(1,200)
 #print(l)
 
 
