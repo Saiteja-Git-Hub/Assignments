@@ -124,6 +124,48 @@ l=[10,20,30,40,'sai',50,60]
 #l.sort()
 #print(l)
 
+#nested list in matrix form
+#l=[[1,2,3],[4,5,6],[7,8,9]]
+#for r in l:
+    #for e in r:
+     #print(e,end=' ')
+    #print()
+
+#reverse sort
+#l=[10,1,3,40,50,60,7,80]
+#l.sort(reverse=True)
+#l.sort(reverse=False)
+#print(l)
+
+#comparing list objests
+#l1=[1,2,3,4,5,6,7]
+#l2=[1,2,3,4,5,7,6]
+#if l1==l2:
+    #print('both are equal')
+#else:
+    #print('not equal')
+
+#comparing lists with sort function
+#l1=[1,2,3,4,5]
+#l2=[5,4,3,2,1]
+#if l1.sort()==l2.sort():
+    #print('both are eqal')
+#else:
+    #print('not equal')
+
+#list copy
+#l1=[10,20,30,40,50]
+#l2=l1.copy()
+#print(l1)
+#print(l2)
+
+#replace
+#l=[1,2,3,4,5,6]
+#l[3]=40
+#print(l)
+
+
+
 
 
 
