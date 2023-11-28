@@ -164,6 +164,17 @@ l=[10,20,30,40,'sai',50,60]
 #l[3]=40
 #print(l)
 
+#comprehensive list---->decrease the code
+#l=[x*x for x in range(1,11)]
+#print(l)
+
+#l=[1,2,3,4,5,6]
+#l2=[x*x for x in l]
+#print('l2',l2)
+
+#l=list(range(1,20))
+#sqrt=[x**0.5 for x in l] 
+#print('sqrt=',sqrt)
 
 
 
