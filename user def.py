@@ -111,9 +111,16 @@
 #sum(10,20,30)
 #sum(10,20,30,40,50)
 
-def f(arg1,arg2,arg3=4,arg4=8):
-    print(arg1,arg2,arg3,arg4)
-f(3,2,arg3=10,arg4=20)
+#def f(arg1,arg2,arg3=4,arg4=8):
+    #print(arg1,arg2,arg3,arg4)
+#f(3,2,arg3=10,arg4=20)
+
+#def sum(name,*marks):
+    #total=0
+    #for x in marks:
+        #total=total+x
+    #print('hello',name,'your total marks:',total)
+#sum('sai',10,20,30,40,50)
 
 
 
