@@ -122,6 +122,73 @@
     #print('hello',name,'your total marks:',total)
 #sum('sai',10,20,30,40,50)
 
+#anonymous or lambda function
+
+#s=lambda n:n*n
+#print('square of 4 is:',s(4))
+#print(s(5))
+#for i in range(1,11):
+    #print('the square of {} is:{}'.format(i,s(i)))
+
+#global variables
+#filter
+#maps
+#reduce
+#aliasing
+
+#nested function(function with another function)
+
+#def f1():
+    #def inner(a,b):
+        #print('the sum:',a+b)
+        #print('the avg:',(a+b)/2)
+        #print()
+    #inner(10,20)
+    #inner(30,40)
+    #inner(50,60)
+    #inner(70,80)
+#f1()
+
+#function can return as another function
+
+#def outer():
+    #print('outer function is started')
+    #def inner():
+        #print('inner function is executed')
+    #print('outer function returning inner')
+    #return inner
+#f=outer()
+#f=outer---->giving another name to the function(aliasing)
+#f()
+
+#function decorator'@'
+def decor(wish):
+    def inner(name):
+        if name=='sai':
+            print('hello sai bad mrng')
+        else:wish(name)
+    return inner
+
+@decor
+def wish(name):
+    print('hi',name,'good mrng')
+wish('sai')
+wish('kiran')
+wish('ganesh')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
