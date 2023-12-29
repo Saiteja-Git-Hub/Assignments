@@ -53,7 +53,7 @@
     #f.close()
     #print()
 
-import os
+#import os
 #cwd=os.getcwd()
 #print('cwd',cwd)          
 #cwd=os.mkdir('sai/abc2')
@@ -62,7 +62,7 @@ import os
 #wd=os.makedirs('sa/99/77/666')
 
 #os.removedirs('ABC/1/2/3/4')
-os.removedirs('sai/abc1')
+#os.removedirs('sai/abc1')
 
 
 
