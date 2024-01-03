@@ -162,19 +162,42 @@
 #f()
 
 #function decorator'@'
-def decor(wish):
-    def inner(name):
-        if name=='sai':
-            print('hello sai bad mrng')
-        else:wish(name)
-    return inner
+#def decor(wish):
+    #def inner(name):
+        #if name=='sai':
+            #print('hello sai bad mrng')
+        #else:wish(name)
+    #return inner
 
-@decor
-def wish(name):
-    print('hi',name,'good mrng')
-wish('sai')
-wish('kiran')
-wish('ganesh')
+#@decor
+#def wish(name):
+    #print('hi',name,'good mrng')
+#wish('sai')
+#wish('kiran')
+#wish('ganesh')
+
+#@decor
+#def wish(name):
+    #print('hi',name,'good mrng')
+#wish('sai')
+#wish('kiran')
+#wish('ganesh')
+
+#def smartdiv(division):
+    #def inner(a,b):
+        #if b==0:
+            #print('cant divide with zero')
+        #else:
+            #return division(a,b)
+    #return inner
+
+#@smartdiv
+#def division(a,b):
+    #return a/b 
+#print(division(10,2))
+#print(division(10,5))
+#print(division(10,0))
+
 
 
 
