@@ -44,3 +44,55 @@
 #t1.m1()
 #print('t1:',t1.a,t1.b)
 #print('t2:',t2.a,t2.b)
+
+#class Test:
+    #a=10
+    #def __init__(self):
+        #self.b=20
+    #@classmethod
+    #def m1(cls):
+        #print('this is classmethod')
+        #cls.a=99
+        #cls.b=100
+#t=Test()
+#t.m1() #by using obj ref
+#Test.m1() #using class name
+#t1=Test()
+#t2=Test()
+#Test.m1()
+#print('t1:',t1.a,t1.b)
+#print('t2:',t2.a,t2.b)
+#print('Test:',Test.a,Test.b)
+
+#assign values using @
+#class myclass:
+    #def __init__(self,x,y):
+        #self.x=x
+        #self.y=y
+        #print(x)
+        #print(y)
+        
+    #@classmethod
+    #def create_from_str(cls,string):
+        #print(string)
+        #x,y=map(int,string.split(","))#[6,9]
+        #return cls(x,y)
+    
+#obj=myclass.create_from_str("6,9")
+
+#using normal method
+#class myclass:
+    #def __init__(self,string):
+        #self.string=string
+
+    #def m1(self):
+        #a,b=map(int,self.string.split(","))
+        #print(a) # self.a=a
+        #print(b) # self.b=b
+    #def m2(self):
+        #print(self.a)
+        #print(self.b)
+
+#obj=myclass('4,8')
+#obj.m1()
+#obj.m2()
