@@ -253,3 +253,57 @@
     #else:
         #print("invaild option, please select correct option ")
 
+
+#create a class with instance variables
+
+#class person:
+    #def __init__(self,name,age):
+        #self.name=name
+        #self.age=age
+    #def details(self):
+        #print('Hello, my name is:{} and my age is:{}'.format(self.name,self.age))
+
+#person1=person('sai',25)
+#person2=person('vikram',28)
+
+#person1.details()
+#person2.details()
+
+#creating vehicle class with out any variables and methods
+
+#class vehicle:
+    #pass
+
+#v=vehicle()
+
+
+#Creating a child class Bus that will inherit all of the variables and methods of the Vehicle class
+
+#class Vehicle:
+    #def __init__(self, make, model, year):
+        #self.make = make
+        #self.model = model
+        #self.year = year
+
+    #def display_info(self):
+        #print(f"Make: {self.make}, Model: {self.model}, Year: {self.year}")
+
+
+#class Bus(Vehicle):
+    #def __init__(self, make, model, year, capacity):
+        #super().__init__(make, model, year)
+        #self.capacity = capacity
+
+    #def display_info(self):
+        #super().display_info()
+        #print(f"Capacity: {self.capacity}")
+
+
+#if __name__ == "__main__":
+    #bus = Bus("Volvo", "XYZ", 2020, 50)
+    #bus.display_info()
+
+
+
+
+
