@@ -303,6 +303,137 @@
     #bus = Bus("Volvo", "XYZ", 2020, 50)
     #bus.display_info()
 
+#instance method (obj related methods)
+#self.grade() # this is for inside the class #display method
+#s.garde() #outside the class
+
+#instance method
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+    
+#     def display(self):
+#         print("hi",self.name)
+#         print("marks",self.marks)
+    
+#     def grade(self):
+#         if self.marks>70:
+#             print("you got first garde")
+#         elif self.marks>50:
+#             print("you got second grade")
+#         else:
+#             print("got c grade")
+    
+# s=Student("saiteja",25)
+# s.display()
+# s.grade()
+
+
+#class methods
+
+# class human:
+#     legs=2
+#     @classmethod
+#     def walk(cls,name):
+#         print("{} walk with {} legs".format(name,cls.legs))
+
+# t=human()
+# t.walk("saiteja") 
+
+# human.walk("saiteja")
+# human.walk("kalyan")
+
+
+#a method using
+#instance var -->at least one instance var in method, it is instance method
+#static var--> class method
+#instance var +static var==> Instance method
+#imnsatnce var + local var---> instance method
+#static var +local var--> @classmethod
+#local var ---> @static method(general utility methods)
+#class method always talks about class level data ---> static var
+# static method never talks about class level var (general)
+
+
+#accessing members of one class inside another class
+
+# class employee:
+#     def __init__(self,eno,ename,esal):
+#         self.eno=eno
+#         self.ename=ename
+#         self.esal=esal
+    
+#     def display(self):
+#         print("eno : ",self.eno)
+#         print("ename ",self.ename)
+#         print("esal : ",self.esal)
+
+# class Test:
+#     def modify(emp):
+#         emp.eno=emp.eno+1000
+#         print("printing name inside test class modify method ",emp.ename)
+#         emp.display()
+
+# e=employee(23,"aman",2000)
+# Test.modify(e)
+
+
+#accessing members of two classes inside another class
+
+# class ClassA:
+#     def method_a(self):
+#         print("Method A from ClassA")
+
+
+# class ClassB:
+#     def method_b(self):
+#         print("Method B from ClassB")
+
+
+# class NewClass:
+#     def __init__(self):
+#         self.class_a = ClassA()
+#         self.class_b = ClassB()
+
+#     def method_c(self):
+#         print("Method C from NewClass")
+
+
+# obj = NewClass()
+# obj.class_a.method_a()  # Access method from ClassA
+# obj.class_b.method_b()  # Access method from ClassB
+# obj.method_c()  # Access method from NewClass
+
+
+#accessing inner class example
+
+# class outer:
+#     def __init__(self):
+#         print("outer class object creations")
+    
+#     class Inner:
+#         def __init__(self):
+#             print("inner class of creation")
+
+#         class New:
+#             def __init__(self):
+#                 print("New class creation")
+
+#             def m1(self):
+#                 print("new class method")
+
+# # Creating an object of the outer class
+# o=outer()
+
+# # Creating an object of the Inner class (nested inside outer)
+# i=outer.Inner()
+
+# # Creating an object of the New class (nested inside Inner)
+# n=outer.Inner.New()
+
+# # Calling method m1 of the New class
+# n.m1()
 
 
 
